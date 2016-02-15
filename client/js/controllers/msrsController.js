@@ -1,3 +1,3 @@
-app.controller('msrsController', function($scope) {
+app.controller('msrsController', ['$scope', function($scope) {
 
-});
+}]);
