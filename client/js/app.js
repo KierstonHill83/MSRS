@@ -1,16 +1,11 @@
-var app = angular.module('msrs', ['ngRoute', 'ui.bootstrap']);
+var app = angular.module('msrs', ['ngRoute']);
 
 app.config(function($routeProvider) {
   $routeProvider
     .when('/', {
-      access: {restricted: false},
-      controller: 'msrsController',
-      redirectTo: '/home'
-    })
-    .when('/home', {
-      templateUrl: '/views/partials/home.html',
       controller: 'homeController',
-      access: {restricted: false}
+      templateUrl: '/views/partials/home.html',
+      access: {restricted: false},
     })
     .otherwise({
       redirectTo: '/'
