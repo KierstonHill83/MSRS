@@ -7,7 +7,7 @@ a {
   color: #00B7FF;
 }
 
-h1 {
+.brand-heading {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 5em;
@@ -38,6 +38,12 @@ h1 {
   color: #B2341B;
 }
 
+.motto {
+  color: #B2341B;
+  font-size: 2em;
+  font-weight: 500;
+}
+
 .btn {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -48,6 +54,7 @@ h1 {
   width: 70px;
   height: 70px;
   margin: 20px;
+  margin-bottom: 40px;
   padding: 7px 16px;
   border: 2px solid #fff;
   border-radius: 100%! important;
