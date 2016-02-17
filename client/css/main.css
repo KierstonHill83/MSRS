@@ -6,3 +6,29 @@ body {
 a {
   color: #00B7FF;
 }
+
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: green;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid #fff;
+  border-radius: 100%! important;
+  font-size: 40px;
+  color: #fff;
+  background: 0 0;
+}
