@@ -1,5 +1,6 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-family: 'Hind', sans-serif;
 }
 
 a {
@@ -15,6 +16,12 @@ h1 {
 
 .navbar {
   background-color: #4188B0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2em;
+  color: #1E3F52;
 }
 
 .intro {
