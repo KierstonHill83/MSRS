@@ -62,3 +62,28 @@ a {
   color: #fff;
   background: 0 0;
 }
+
+.header {
+  text-align: center;
+  color: #1E3F52;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+#services {
+  background-color: #f7f7f7;
+  padding: 30px;
+}
+
+.services-item {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.services-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
