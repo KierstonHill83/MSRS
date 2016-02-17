@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,12 +6,29 @@ a {
   color: #00B7FF;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 5em;
+  color: #1E3F52;
+}
+
+.navbar {
+  background-color: #4188B0;
+}
+
 .intro {
   display: table;
+  margin-top: 30px;
   width: 100%;
   height: auto;
   text-align: center;
-  background-color: green;
+  background-color: #4188B0;
+}
+
+.intro-text {
+  font-size: 3em;
+  color: #B2341B;
 }
 
 .btn {
@@ -24,7 +40,7 @@ a {
 .btn-circle {
   width: 70px;
   height: 70px;
-  margin-top: 15px;
+  margin: 20px;
   padding: 7px 16px;
   border: 2px solid #fff;
   border-radius: 100%! important;
