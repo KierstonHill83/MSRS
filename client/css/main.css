@@ -26,11 +26,12 @@ a {
 
 .intro {
   display: table;
-  margin-top: 30px;
+  margin-top: 50px;
   width: 100%;
   height: auto;
   text-align: center;
-  background-color: #4188B0;
+  /*background-color: #4188B0;*/
+  background: url('//wallpaperbeta.com/wallpaper_1024x768/abstract_community_texture_bubbles_black_1024x768_hd-wallpaper-342026.jpg') no-repeat center scroll;
 }
 
 .intro-text {
