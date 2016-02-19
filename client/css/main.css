@@ -81,6 +81,10 @@ a {
   text-align: center;
 }
 
+.about-icon {
+  font-size: 4em;
+}
+
 #services {
   background-color: #f7f7f7;
   padding: 30px;
