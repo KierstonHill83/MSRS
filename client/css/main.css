@@ -26,12 +26,23 @@ a {
 
 .intro {
   display: table;
+  position: absolute;
   margin-top: 50px;
   width: 100%;
-  height: auto;
+  height: 100%;
   text-align: center;
-  background: url('../img/intro-img.jpg') no-repeat center scroll;
-  background-size: cover;
+  background: url('../img/intro-img.jpg') no-repeat center center;
+  /*background-size: cover;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  /*background-size: 100% 100%;*/
+}
+
+.intro-body {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .intro-text {
