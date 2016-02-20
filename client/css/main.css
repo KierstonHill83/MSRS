@@ -85,6 +85,11 @@ a {
   font-size: 4em;
 }
 
+.about-header {
+  font-weight: 600;
+  color: #1E3F52;
+}
+
 #services {
   background-color: #f7f7f7;
   padding: 30px;
