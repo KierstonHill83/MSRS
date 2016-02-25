@@ -62,14 +62,14 @@ a {
 }
 
 .btn-circle {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   margin: 20px;
   margin-bottom: 40px;
-  padding: 7px 16px;
+  padding: 0px 10px;
   border: 2px solid #fff;
   border-radius: 100%! important;
-  font-size: 40px;
+  font-size: 3em;
   color: #fff;
   background: 0 0;
 }
@@ -134,5 +134,52 @@ a {
 
 .img {
   vertical-align: middle;
+}
+
+@-webkit-keyframes hvr-bob {
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+}
+      
+@keyframes hvr-bob {
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+}
+
+.img-responsive {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;  
+  -webkit-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.img-responsive:hover, .img-responsive:focus, .img-responsive:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+      
+.img-responsive:hover:before, .img-responsive:focus:before, .img-responsive:active:before {
+  -webkit-animation-name: portfolio-img;
+  animation-name: portfolio-img;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
