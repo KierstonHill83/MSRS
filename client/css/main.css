@@ -136,6 +136,28 @@ a {
   vertical-align: middle;
 }
 
+.modal-content {
+  background-color: #4188B0;
+  padding: 30px;
+}
+
+.modal-title {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.modal-sub-title {
+  color: #B2341B;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+li {
+  color: #1E3F52;
+  font-size: 19px;
+}
+
 @-webkit-keyframes hvr-bob {
   50% {
     -webkit-transform: translateY(4px);
