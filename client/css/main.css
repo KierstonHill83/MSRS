@@ -10,18 +10,24 @@ a {
 .brand-heading {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 5em;
+  font-size: 7em;
   color: white;
 }
 
 .navbar {
-  background-color: #4188B0;
+  /*background-color: #4188B0;*/
+  background-color: black;
 }
 
 .navbar-brand {
   font-weight: 700;
   font-size: 2em;
-  color: #1E3F52;
+  /*color: #1E3F52;*/
+  color: #fed136;
+}
+
+.nav-section {
+  color: #fed136;
 }
 
 .intro {
@@ -51,9 +57,10 @@ a {
 }
 
 .motto {
-  color: #B2341B;
+  /*color: #B2341B;*/
   font-size: 2em;
   font-weight: 500;
+  color: #fed136;
 }
 
 .btn {
