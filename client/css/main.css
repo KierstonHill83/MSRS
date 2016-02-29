@@ -31,7 +31,7 @@ a {
   height: 100%;
   min-height: 840px;
   text-align: center;
-  background: url('../img/intro-img.jpg') no-repeat center center;
+  background: url('../img/intro-black.jpg') no-repeat center center;
   background-size: cover; 
 }
 
@@ -42,7 +42,8 @@ a {
 
 .intro-text {
   font-size: 3em;
-  color: #B2341B;
+  /*color: #B2341B;*/
+  color: #fed136;
 }
 
 .intro-description {
