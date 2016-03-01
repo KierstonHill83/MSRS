@@ -166,6 +166,11 @@ li {
   font-size: 19px;
 }
 
+.section-break {
+  background-color: black;
+  height: 2px;
+}
+
 @-webkit-keyframes hvr-bob {
   50% {
     -webkit-transform: translateY(4px);
