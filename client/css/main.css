@@ -104,8 +104,9 @@ a {
   color: #1E3F52;
 }
 
-#services {
-  background-color: #f7f7f7;
+/*#services {*/
+  section {
+  background: url('../img/white-abstract.jpg');
   padding: 30px;
 }
 
