@@ -1,6 +1,7 @@
 body {
   font-size: 2em;
   font-family: 'Hind', sans-serif;
+  background: url('../img/white-abstract.jpg');
 }
 
 a {
@@ -104,9 +105,7 @@ a {
   color: #1E3F52;
 }
 
-/*#services {*/
-  section {
-  background: url('../img/white-abstract.jpg');
+#services {
   padding: 30px;
 }
 
