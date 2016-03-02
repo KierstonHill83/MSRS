@@ -107,6 +107,7 @@ a {
 
 #services {
   padding: 30px;
+  background-color: #B8B8B8;
 }
 
 .services-item {
@@ -126,13 +127,13 @@ a {
   color: white;
 }
 
-.service-left {
+/*.service-left {
   float: left;
 }
 
 .service-right {
   float: right;
-}
+}*/
 
 .img-responsive {
   display: block;
