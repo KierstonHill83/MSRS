@@ -128,11 +128,11 @@ a {
 }
 
 /*.service-left {
-  float: left;
+  float: right;
 }
 
 .service-right {
-  float: right;
+  float: left;
 }*/
 
 .img-responsive {
